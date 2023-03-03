@@ -1,0 +1,31 @@
+
+#Challenge F LEVEL 2 AND 3
+num = 21
+use_synth :piano
+
+
+88.times do
+  play (num)
+  sleep 0.5
+  num = num + 1
+end
+
+88.times do
+  play (num)
+  sleep 0.25
+  num = num - 1
+end
+
+
+88.times do
+  
+  play (num)
+  sleep 0.125
+  num = num + 1
+end
+
+88.times do
+  play (num)
+  sleep 0.0625
+  num = num - 1
+end
